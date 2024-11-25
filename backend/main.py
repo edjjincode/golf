@@ -187,3 +187,4 @@ def format_results(results_summary):
                     adjustment = abs(value - (range_max if value > range_max else range_min))
                     formatted += f"  {metric} 값 {value:.2f}는 범위를 벗어났습니다. {adjustment:.2f} 정도 조정해야 합니다.\n"
     return formatted
+

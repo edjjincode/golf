@@ -53,3 +53,4 @@ def save_debug_frame(image, frame_count, frame_dir, detections=None, pose_landma
 
     frame_path = os.path.join(frame_dir, f"frame_{frame_count}.jpg")
     cv2.imwrite(frame_path, cv2.cvtColor(debug_image, cv2.COLOR_RGB2BGR))
+

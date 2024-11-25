@@ -193,3 +193,6 @@ def save_debug_log(frame_count, detections, metrics, landmarks):
     log_path = os.path.join(DEBUG_LOGS_DIR, f"log_{frame_count}.json")
     with open(log_path, "w") as f:
         json.dump(log_data, f, indent=4)
+
+
+
